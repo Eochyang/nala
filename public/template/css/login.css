@@ -1,0 +1,25 @@
+header .head a{display: flex;}
+header .head a h3{font:700 22px "";color:#333;padding: 40px 0 0 30px;}
+
+main{width:1020px;margin: 50px auto;min-height: 580px;}
+main .pic{width: 600px;height: 450px;float: left;}
+main .pic img{width: 500px;height: 450px;}
+main .login{float: right;border: 1px solid #ddd;width: 320px;height: 420px;box-shadow: 0 0 15px rgba(204,204,204,.5);
+float: right;padding: 15px 30px;}
+main .login .login-t{margin-bottom: 10px;display: flex;justify-content: space-between;}
+main .login .login-t h3{font:100 18px "";letter-spacing: 5px;}
+main .login .login-t p{font-size: 12px;margin-top: 4px;}
+main .login .login-t p a{color:#333;}
+main .login .login-t p a:hover{text-decoration: underline;}
+main .login .login-c{margin-bottom: 30px;}
+main .login .login-c .use{border: 1px solid #ddd;line-height: 18px;padding: 6px;margin-bottom: 24px;}
+main .login .login-c .use span{display: inline-block;text-align: center;color: #aaa;font-size: 16px;
+    vertical-align: middle;margin: 0 6px;}
+main .login .login-c .use .suo{font-size:18px;}
+main .login .login-c .use input{width: 240px;padding: 4px 6px;height: 18px;overflow: hidden;border: none;
+    border-left: 1px solid #ddd;color: #333;margin-left: 2px;}
+main .login .login-c .forget{text-align: right;}
+main .login .login-c .forget:hover{text-decoration: underline;}
+main .login .login-c .denglu{margin-top: 30px;}
+main .login .login-c .denglu a{display: block;height: 50px;width: 100%;text-align: center;color: #fff;
+    letter-spacing: 5px;font: 18px/50px "";border-radius: 4px;background-color: #c52835;}

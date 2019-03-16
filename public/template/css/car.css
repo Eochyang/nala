@@ -1,0 +1,121 @@
+header .head a {
+  display: flex; }
+  header .head a h3 {
+    font: 700 22px "";
+    color: #333;
+    padding: 40px 0 0 30px; }
+
+main {
+  padding-bottom: 50px; }
+  main .selected {
+    border: 1px solid #eee;
+    padding: 14px 20px;
+    margin-top: 30px; }
+    main .selected a {
+      display: inline-block;
+      padding: 4px 0;
+      color: #999; }
+    main .selected a.return {
+      float: right; }
+  main .main-c {
+    border: 1px solid #eee;
+    margin-top: 30px; }
+    main .main-c table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0; }
+      main .main-c table th {
+        padding-bottom: 5px;
+        color: #999;
+        font: 700 14px/40px "";
+        background: #f8f8f8; }
+      main .main-c table tr:nth-child(odd) td {
+        background: #f8f8f8; }
+      main .main-c table td {
+        padding: 10px 0;
+        height: 47px;
+        text-align: center; }
+      main .main-c table .cho {
+        width: 80px;
+        text-align: left;
+        padding-left: 80px; }
+        main .main-c table .cho input {
+          border: 0;
+          width: 18px;
+          height: 18px;
+          border: 1px solid #568ae8; }
+      main .main-c table .guige {
+        text-align: left;
+        width: 210px;
+        padding-left: 20px; }
+        main .main-c table .guige img {
+          width: 50px;
+          height: 50px;
+          float: left;
+          margin-right: 15px; }
+        main .main-c table .guige .tit {
+          padding-top: 10px; }
+        main .main-c table .guige .gray {
+          color: #999;
+          margin-top: 4px; }
+      main .main-c table .jiage {
+        color: #568ae8;
+        padding-top: 3px;
+        cursor: pointer;
+        font-weight: 700;
+        width: 240px; }
+      main .main-c table .num {
+        height: 36px;
+        display: flex; }
+        main .main-c table .num span {
+          display: block;
+          width: 35px;
+          height: 30px;
+          border: 1px solid #eee;
+          background-color: #eee;
+          text-align: center;
+          font: 26px/30px "";
+          line-height: 30px;
+          cursor: pointer; }
+        main .main-c table .num input {
+          display: block;
+          width: 56px;
+          height: 14px;
+          padding: 8px 0;
+          border: none;
+          border: 1px solid #eee;
+          text-align: center;
+          font: 12px/14px ""; }
+      main .main-c table .zj {
+        color: #568ae8;
+        padding-top: 3px;
+        font-weight: 700;
+        width: 240px; }
+      main .main-c table .del {
+        width: 150px;
+        color: #999;
+        cursor: pointer;
+        padding-right: 30px; }
+  main .pay {
+    border: 1px solid #eee;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end; }
+    main .pay p {
+      font: 14px/50px "";
+      margin: 0 30px;
+      color: #999; }
+      main .pay p span {
+        padding: 0 10px;
+        color: #568ae8; }
+      main .pay p i {
+        color: #568ae8;
+        font-size: 18px; }
+    main .pay div {
+      width: 110px;
+      height: 50px;
+      background: #568ae8;
+      color: #fff;
+      font: 18px/50px "";
+      text-align: center;
+      letter-spacing: 5px; }

@@ -1,0 +1,289 @@
+header .nav .nav-c {
+  display: none; }
+
+main {
+  margin: 15px auto 80px;
+  min-height: 580px; }
+  main .position {
+    margin: 16px auto;
+    color: #999; }
+    main .position a {
+      color: #999; }
+  main .good .good-pic {
+    width: 302px;
+    float: left;
+    position: relative; }
+    main .good .good-pic .pic-t {
+      width: 300px;
+      height: 300px;
+      border: 1px solid #eee;
+      margin: 0 auto;
+      position: relative; }
+      main .good .good-pic .pic-t img {
+        width: 300px;
+        height: 300px; }
+      main .good .good-pic .pic-t .view {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      main .good .good-pic .pic-t span {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-size: 300px 300px;
+        background-position: -0px -0px;
+        z-index: 2;
+        display: none; }
+      main .good .good-pic .pic-t p {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9; }
+    main .good .good-pic .pic-r {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      top: 0;
+      left: 360px;
+      z-index: 10;
+      overflow: hidden;
+      display: none; }
+      main .good .good-pic .pic-r img {
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        left: 0;
+        right: 0; }
+    main .good .good-pic .pic-c {
+      height: 70px; }
+      main .good .good-pic .pic-c ul {
+        padding-top: 15px;
+        height: 52px;
+        width: 302px;
+        margin: 0 auto; }
+        main .good .good-pic .pic-c ul li {
+          float: left;
+          position: relative;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #eee;
+          margin: 0 4px; }
+          main .good .good-pic .pic-c ul li img {
+            width: 50px;
+            height: 50px; }
+          main .good .good-pic .pic-c ul li span {
+            position: absolute;
+            left: 50%;
+            margin-left: -5px;
+            top: -15px;
+            font: 14px/20px "";
+            color: #bb1d2a;
+            display: none; }
+        main .good .good-pic .pic-c ul li:first-child {
+          border: 1px solid #bb1d2a; }
+          main .good .good-pic .pic-c ul li:first-child span {
+            display: block; }
+    main .good .good-pic .pic-b {
+      padding: 20px 0 0 5px; }
+      main .good .good-pic .pic-b span {
+        display: inline-block;
+        margin-right: 50px; }
+      main .good .good-pic .pic-b a {
+        color: #333; }
+        main .good .good-pic .pic-b a i {
+          font: 13px ""; }
+      main .good .good-pic .pic-b a:hover {
+        color: #bb1d2a; }
+  main .good .good-detail {
+    width: 840px;
+    float: right;
+    position: relative; }
+    main .good .good-detail .title {
+      margin: 0 180px 20px 0; }
+      main .good .good-detail .title .title-t {
+        margin-bottom: 16px; }
+        main .good .good-detail .title .title-t img {
+          width: 26px;
+          height: 20px;
+          margin-right: 4px;
+          vertical-align: -4px; }
+        main .good .good-detail .title .title-t span {
+          font-size: 14px;
+          color: #999; }
+      main .good .good-detail .title h1 {
+        font-size: 18px;
+        color: #333; }
+      main .good .good-detail .title p {
+        color: #999;
+        margin-top: 8px; }
+    main .good .good-detail .info {
+      background: #fcf5f6;
+      padding: 15px 20px; }
+      main .good .good-detail .info p {
+        margin-bottom: 10px;
+        color: #999; }
+        main .good .good-detail .info p span {
+          color: #333; }
+    main .good .good-detail .pro-goods {
+      margin-top: 20px; }
+      main .good .good-detail .pro-goods .pro-t {
+        height: 38px;
+        background-color: #f8f8f8;
+        border: 1px solid #eee;
+        border-left: none; }
+        main .good .good-detail .pro-goods .pro-t ul {
+          width: 100%;
+          height: 38px; }
+          main .good .good-detail .pro-goods .pro-t ul li {
+            display: block;
+            float: left;
+            width: 128px;
+            cursor: pointer;
+            text-align: center;
+            margin-right: -1px; }
+            main .good .good-detail .pro-goods .pro-t ul li span {
+              display: block;
+              height: 30px;
+              border-left: 1px solid #eee;
+              border-right: 1px solid #f8f8f8;
+              border-top: 2px solid #f8f8f8;
+              padding-top: 7px;
+              font-size: 14px; }
+            main .good .good-detail .pro-goods .pro-t ul li .curr {
+              color: #bb1d2a;
+              border-left-color: #eee;
+              border-right-color: #eee;
+              border-top-color: #bb1d2a;
+              background: #fff; }
+            main .good .good-detail .pro-goods .pro-t ul li .hide {
+              display: none; }
+      main .good .good-detail .pro-goods .pro-c {
+        margin: 20px 0 0; }
+        main .good .good-detail .pro-goods .pro-c table {
+          width: 100%;
+          border-collapse: collapse;
+          border-spacing: 0; }
+          main .good .good-detail .pro-goods .pro-c table th {
+            font-weight: 100;
+            padding-bottom: 5px;
+            color: #999; }
+          main .good .good-detail .pro-goods .pro-c table tr:nth-child(odd) td {
+            background: #f8f8f8; }
+          main .good .good-detail .pro-goods .pro-c table td {
+            padding: 10px 0;
+            height: 47px;
+            text-align: center; }
+          main .good .good-detail .pro-goods .pro-c table .guige {
+            text-align: left;
+            width: 210px;
+            padding-left: 20px; }
+            main .good .good-detail .pro-goods .pro-c table .guige .gray {
+              color: #999;
+              margin-top: 4px; }
+          main .good .good-detail .pro-goods .pro-c table .jiage {
+            color: #568ae8;
+            padding-top: 3px;
+            cursor: pointer;
+            font-weight: 700;
+            width: 240px; }
+          main .good .good-detail .pro-goods .pro-c table .number {
+            width: 100px;
+            color: #999; }
+          main .good .good-detail .pro-goods .pro-c table .kucun {
+            width: 140px;
+            color: #999; }
+          main .good .good-detail .pro-goods .pro-c table .num {
+            width: 130px;
+            height: 36px;
+            display: flex; }
+            main .good .good-detail .pro-goods .pro-c table .num span {
+              display: block;
+              width: 35px;
+              height: 30px;
+              border: 1px solid #eee;
+              background-color: #eee;
+              text-align: center;
+              font: 26px/30px "";
+              line-height: 30px;
+              cursor: pointer; }
+            main .good .good-detail .pro-goods .pro-c table .num input {
+              display: block;
+              width: 56px;
+              height: 14px;
+              padding: 8px 0;
+              border: none;
+              border: 1px solid #eee;
+              text-align: center;
+              font: 12px/14px ""; }
+    main .good .good-detail .brand-logo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 102px; }
+      main .good .good-detail .brand-logo img {
+        border: 1px solid #eee;
+        width: 100px;
+        height: 40px;
+        vertical-align: top; }
+  main .jieshao {
+    margin-top: 80px; }
+    main .jieshao .jieshao-l {
+      float: left;
+      width: 200px;
+      border: 1px solid #eee;
+      margin-bottom: 20px; }
+      main .jieshao .jieshao-l h2 {
+        border-bottom: 1px solid #eee;
+        font: 700 16px/48px "";
+        padding-left: 12px; }
+      main .jieshao .jieshao-l ul {
+        padding: 20px; }
+        main .jieshao .jieshao-l ul li {
+          margin-bottom: 8px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #eee; }
+          main .jieshao .jieshao-l ul li a {
+            color: #333; }
+            main .jieshao .jieshao-l ul li a img {
+              width: 150px;
+              height: 150px;
+              vertical-align: top; }
+          main .jieshao .jieshao-l ul li p.price {
+            display: inline-block;
+            padding-top: 5px;
+            color: #999;
+            margin-right: 10px; }
+    main .jieshao .jieshao-r {
+      float: right;
+      width: 960px; }
+      main .jieshao .jieshao-r h5 {
+        padding: 0 24px;
+        font: 700 16px/48px "";
+        border-bottom: 2px solid #bb1d2a;
+        width: 66px; }
+      main .jieshao .jieshao-r .part {
+        border: 1px solid #eee;
+        margin-bottom: 20px; }
+        main .jieshao .jieshao-r .part .part-b {
+          padding: 20px 24px;
+          font: 14px/24px "";
+          border-top: 1px solid #eee; }
+          main .jieshao .jieshao-r .part .part-b li {
+            float: left;
+            min-width: 25%;
+            font: 14px/32px ""; }
+      main .jieshao .jieshao-r .part-detail {
+        border: 1px solid #eee;
+        margin-bottom: 20px; }
+        main .jieshao .jieshao-r .part-detail .part-img {
+          padding: 20px;
+          border-top: 1px solid #eee; }
+          main .jieshao .jieshao-r .part-detail .part-img img {
+            max-width: 880px;
+            vertical-align: top; }

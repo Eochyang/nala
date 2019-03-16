@@ -1,0 +1,58 @@
+header .head a{
+    display: flex;
+    h3{
+        font:700 22px "";color:#333;padding: 40px 0 0 30px;
+    }
+}
+  
+main{
+    $fc:#999;
+    $mainc:#568ae8;
+    padding-bottom:50px;
+    .selected{border: 1px solid #eee;padding: 14px 20px;margin-top:30px;
+        a{display: inline-block;padding: 4px 0;color: #999;
+        }
+        a.return{float: right;}
+    }
+    .main-c{border: 1px solid #eee;margin-top:30px;
+        table{width: 100%;border-collapse: collapse;border-spacing: 0;
+            th{padding-bottom: 5px;color: $fc;font:700 14px/40px "";background:#f8f8f8;
+            }
+            tr:nth-child(odd) td{background:#f8f8f8;}
+            td{padding: 10px 0;height: 47px;text-align: center;
+            }
+            .cho{width:80px;text-align:left;padding-left:80px;
+                input{
+                    border:0;width:18px;height:18px;border:1px solid $mainc;
+                }
+            }
+            .guige{text-align: left;width: 210px;padding-left: 20px;
+                img{width:50px;height:50px;float:left;margin-right:15px;}
+                .tit{padding-top:10px;}
+                .gray{color:$fc;margin-top:4px;}
+            }
+            .jiage{
+                color: $mainc;padding-top: 3px;cursor: pointer;font-weight: 700;width: 240px;
+            }
+            .num{height: 36px;display:flex;
+                span{display: block;width: 35px;height: 30px;border: 1px solid #eee;background-color: #eee;text-align: center;font: 26px/30px "";line-height: 30px;cursor: pointer;
+                }
+                input{display: block;width: 56px;height: 14px;padding: 8px 0;border: none;border: 1px solid #eee;text-align: center;font: 12px/14px "";
+                }
+            }
+            .zj{color: $mainc;padding-top: 3px;font-weight: 700;width: 240px;
+            }
+            .del{width:150px;color:$fc;cursor: pointer;
+padding-right:30px;
+            }
+        }
+    }
+    .pay{border: 1px solid #eee;margin-top:30px;display:flex;justify-content: flex-end;
+        p{
+            font:14px/50px "";margin:0 30px;color:$fc;
+            span{padding:0 10px;color:$mainc;}
+            i{color:$mainc;font-size:18px;}
+        }
+        div{width:110px;height:50px;background:$mainc;color:#fff;font:18px/50px "";text-align: center;letter-spacing: 5px;}
+    }
+}

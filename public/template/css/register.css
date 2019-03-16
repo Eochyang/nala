@@ -1,0 +1,17 @@
+header .head a{display: flex;}
+header .head a h3{font:700 22px "";color:#333;padding: 40px 0 0 30px;}
+
+main .res{padding: 100px 0 0 330px;min-height: 500px;}
+main .res ul li{padding-bottom: 15px;font: 14px/40px "";}
+main .res ul li .left{display: block;float: left;width: 115px;text-align: right;padding-right: 10px;color: #666;}
+main .res ul li .left i{color: #bb1d2a;margin-right: 3px;font-size:700 18px/30px "";vertical-align: -3px;}
+main .res ul li input{width: 300px;height: 24px;font-size: 12px/24px "";padding: 7px 8px;border: 1px solid #ddd;
+    border-top-color: #ccc;box-shadow: 0 1px 3px rgba(200,200,200,.3) inset;color:#333;}
+main .res ul li .yanzheng{margin-left: 10px;font-size: 14px;}
+main .res ul li input.check{width:20px;height:20px;}
+main .res ul li .che{position: relative;}
+main .res ul li .che i{position: absolute;top:20px;width:100px;left:40px;}
+main .res ul li .right p{color:#999;padding-bottom: 15px;font: 14px/30px "";}
+main .res ul li .right p a{color: #bb1d2b;font-weight: 700;}
+main .res ul li .right p a:hover{text-decoration: underline;}
+main .res ul li .zhuce{float:left;display:block;padding: 4px 0;width: 218px;font:700 16px/30px "";border-radius: 4px;color: #fff;background-color: #c52835;border: 1px solid #c52835;text-align: center;}
